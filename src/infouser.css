@@ -1,0 +1,74 @@
+@font-face{
+	src:url(./font/Mulish-Italic-VariableFont_wght.ttf);
+	font-family:Mulish ;
+}
+* {
+    font-family: 'Mulish';
+    font-size: 24px;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.bgr {
+    display:flex;
+    height: 1024px;
+    width: 1440px;
+    border-radius: 0px;
+    background: linear-gradient(180deg, #2D9CDB 0%, #1B4088 100%);
+}
+.main {
+    height: 421px;
+    width: 561px;
+    margin: 301px 0px 0px 439px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);   
+}
+img {
+    margin-right: 11px;
+}
+.text  {
+    box-sizing: border-box;
+    margin-top: 80px;
+    margin-left: 81px;
+    list-style: none;
+}
+.name {
+    margin:0px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #EB5757;
+}
+.username {
+    margin:0px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #F2994A;
+}
+.companyname {
+    margin-top: 21px;
+    margin-bottom: 26px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #2F80ED;
+}
+li {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #4F4F4F;
+    margin-top: 15px;
+}
